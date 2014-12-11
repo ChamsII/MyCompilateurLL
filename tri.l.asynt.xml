@@ -1,0 +1,363 @@
+<prog>
+  <l_Decl>
+    <decTab> $tab[10]</decTab>
+  </l_Decl>
+  <l_Decl>
+    <declFonc>
+      initialiser
+      <instr_Bloc>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 0</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 12</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 1</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 67</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 2</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 9</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 3</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 92</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 8</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 44</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 5</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 27</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 6</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 32</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 7</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 12</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 8</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 43</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <intExpr> 9</intExpr>
+          </opExpre>
+          <opExpre>
+            <intExpr> 5</intExpr>
+          </opExpre>
+        </inst_affect>
+      </instr_Bloc>
+    </declFonc>
+    <declFonc>
+      afficher
+      <instr_Bloc>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 0</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 1</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 2</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 3</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 4</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 5</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 6</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 7</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 8</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <intExpr> 9</intExpr>
+            </opExpre>
+          </opExpre>
+        </instr_ecriture>
+        <instr_ecriture>
+          <opExpre>
+            <intExpr> 0</intExpr>
+          </opExpre>
+        </instr_ecriture>
+      </instr_Bloc>
+    </declFonc>
+    <declFonc>
+      echanger
+      <decVar> $i</decVar>
+      <decVar> $j</decVar>
+      <decVar> $temp</decVar>
+      <instr_Bloc>
+        <inst_affect>
+          <var_indicee> $temp</var_indicee>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <var_simple> $j</var_simple>
+            </opExpre>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <var_simple> $j</var_simple>
+          </opExpre>
+          <opExpre>
+            <var_simple> $tab</var_simple>
+            <opExpre>
+              <var_simple> $i</var_simple>
+            </opExpre>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $tab</var_indicee>
+          <opExpre>
+            <var_simple> $i</var_simple>
+          </opExpre>
+          <opExpre>
+            <var_simple> $temp</var_simple>
+          </opExpre>
+        </inst_affect>
+      </instr_Bloc>
+    </declFonc>
+    <declFonc>
+      trier
+      <decVar> $n</decVar>
+      <decVar> $echange</decVar>
+      <decVar> $j</decVar>
+      <decVar> $m</decVar>
+      <instr_Bloc>
+        <inst_affect>
+          <var_indicee> $m</var_indicee>
+          <opExpre>
+            <var_simple> $n</var_simple>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $echange</var_indicee>
+          <opExpre>
+            <intExpr> 1</intExpr>
+          </opExpre>
+        </inst_affect>
+        <instr_tantque>
+          <opExpre>
+            <var_simple> $echange</var_simple>
+            egal
+            <intExpr> 1</intExpr>
+          </opExpre>
+          <instr_Bloc>
+            <inst_affect>
+              <var_indicee> $echange</var_indicee>
+              <opExpre>
+                <intExpr> 0</intExpr>
+              </opExpre>
+            </inst_affect>
+            <inst_affect>
+              <var_indicee> $j</var_indicee>
+              <opExpre>
+                <intExpr> 0</intExpr>
+              </opExpre>
+            </inst_affect>
+            <instr_tantque>
+              <opExpre>
+                <var_simple> $j</var_simple>
+                inf
+                <var_simple> $m</var_simple>
+                moins
+                <intExpr> 1</intExpr>
+              </opExpre>
+              <instr_Bloc>
+                <instr_si>
+                  <opExpre>
+                    <var_simple> $tab</var_simple>
+                    <opExpre>
+                      <var_simple> $j</var_simple>
+                      plus
+                      <intExpr> 1</intExpr>
+                    </opExpre>
+                    inf
+                    <var_simple> $tab</var_simple>
+                    <opExpre>
+                      <var_simple> $j</var_simple>
+                    </opExpre>
+                  </opExpre>
+                  <instr_Bloc>
+                    <instr_appel>
+                      <appel_fct>
+                        echanger
+                        <opExpre>
+                          <var_simple> $j</var_simple>
+                        </opExpre>
+                        <opExpre>
+                          <var_simple> $j</var_simple>
+                          plus
+                          <intExpr> 1</intExpr>
+                        </opExpre>
+                      </appel_fct>
+                    </instr_appel>
+                    <inst_affect>
+                      <var_indicee> $echange</var_indicee>
+                      <opExpre>
+                        <intExpr> 1</intExpr>
+                      </opExpre>
+                    </inst_affect>
+                  </instr_Bloc>
+                </instr_si>
+                <inst_affect>
+                  <var_indicee> $j</var_indicee>
+                  <opExpre>
+                    <var_simple> $j</var_simple>
+                    plus
+                    <intExpr> 1</intExpr>
+                  </opExpre>
+                </inst_affect>
+              </instr_Bloc>
+            </instr_tantque>
+            <inst_affect>
+              <var_indicee> $m</var_indicee>
+              <opExpre>
+                <var_simple> $m</var_simple>
+                moins
+                <intExpr> 1</intExpr>
+              </opExpre>
+            </inst_affect>
+          </instr_Bloc>
+        </instr_tantque>
+      </instr_Bloc>
+    </declFonc>
+    <declFonc>
+      main
+      <instr_Bloc>
+        <instr_appel>
+          <appel_fct>
+            initialiser
+          </appel_fct>
+        </instr_appel>
+        <instr_appel>
+          <appel_fct>
+            afficher
+          </appel_fct>
+        </instr_appel>
+        <instr_appel>
+          <appel_fct>
+            trier
+            <opExpre>
+              <intExpr> 10</intExpr>
+            </opExpre>
+          </appel_fct>
+        </instr_appel>
+        <instr_appel>
+          <appel_fct>
+            afficher
+          </appel_fct>
+        </instr_appel>
+      </instr_Bloc>
+    </declFonc>
+  </l_Decl>
+</prog>

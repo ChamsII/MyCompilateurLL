@@ -1,0 +1,140 @@
+   0  PILE    	 1
+   2  APPELFCT  	 232
+   4  STOP    	
+   5  ENTREE  	
+   6  EMPC    	 0
+   8  EMPC    	 12
+  10  DEPT    	 0
+  12  EMPC    	 1
+  14  EMPC    	 67
+  16  DEPT    	 0
+  18  EMPC    	 2
+  20  EMPC    	 9
+  22  DEPT    	 0
+  24  EMPC    	 3
+  26  EMPC    	 92
+  28  DEPT    	 0
+  30  EMPC    	 8
+  32  EMPC    	 44
+  34  DEPT    	 0
+  36  EMPC    	 5
+  38  EMPC    	 27
+  40  DEPT    	 0
+  42  EMPC    	 6
+  44  EMPC    	 32
+  46  DEPT    	 0
+  48  EMPC    	 7
+  50  EMPC    	 12
+  52  DEPT    	 0
+  54  EMPC    	 8
+  56  EMPC    	 43
+  58  DEPT    	 0
+  60  EMPC    	 9
+  62  EMPC    	 5
+  64  DEPT    	 0
+  66  SORTIE  	
+  67  RETOURNE  	
+  68  ENTREE  	
+  69  EMPC    	 0
+  71  EMPT    	 0
+  73  ECRIV   	
+  74  EMPC    	 1
+  76  EMPT    	 0
+  78  ECRIV   	
+  79  EMPC    	 2
+  81  EMPT    	 0
+  83  ECRIV   	
+  84  EMPC    	 3
+  86  EMPT    	 0
+  88  ECRIV   	
+  89  EMPC    	 4
+  91  EMPT    	 0
+  93  ECRIV   	
+  94  EMPC    	 5
+  96  EMPT    	 0
+  98  ECRIV   	
+  99  EMPC    	 6
+ 101  EMPT    	 0
+ 103  ECRIV   	
+ 104  EMPC    	 7
+ 106  EMPT    	 0
+ 108  ECRIV   	
+ 109  EMPC    	 8
+ 111  EMPT    	 0
+ 113  ECRIV   	
+ 114  EMPC    	 9
+ 116  EMPT    	 0
+ 118  ECRIV   	
+ 119  EMPC    	 0
+ 121  ECRIV   	
+ 122  SORTIE  	
+ 123  RETOURNE  	
+ 124  ENTREE  	
+ 125  EMPL    	 1
+ 127  EMPT    	 -3
+ 129  DEPL    	 -3
+ 131  EMPL    	 1
+ 133  EMPL    	 1
+ 135  EMPT    	 -4
+ 137  DEPL    	 -4
+ 139  EMPL    	 1
+ 141  EMPG    	 1
+ 143  DEPL    	 1
+ 145  SORTIE  	
+ 146  RETOURNE  	
+ 147  ENTREE  	
+ 148  EMPL    	 1
+ 150  DEPL    	 -3
+ 152  EMPC    	 1
+ 154  DEPL    	 1
+ 156  EMPG    	 1
+ 158  EMPC    	 1
+ 160  EQU     	
+ 161  SIFAUX  	 230
+ 163  EMPC    	 0
+ 165  DEPL    	 1
+ 167  EMPC    	 0
+ 169  DEPL    	 1
+ 171  EMPG    	 1
+ 173  EMPG    	 1
+ 175  EMPC    	 1
+ 177  SOUS    	
+ 178  INFE    	
+ 179  SIFAUX  	 221
+ 181  EMPG    	 1
+ 183  EMPC    	 1
+ 185  ADD     	
+ 186  EMPT    	 1
+ 188  EMPG    	 1
+ 190  EMPT    	 1
+ 192  INFE    	
+ 193  SIFAUX  	 212
+ 195  EMPG    	 1
+ 197  EMPG    	 1
+ 199  EMPC    	 1
+ 201  ADD     	
+ 202  APPELFCT  	 124
+ 204  PILE    	 -2
+ 206  EMPC    	 1
+ 208  DEPL    	 1
+ 210  SAUT    	 212
+ 212  EMPG    	 1
+ 214  EMPC    	 1
+ 216  ADD     	
+ 217  DEPL    	 1
+ 219  SAUT    	 171
+ 221  EMPG    	 1
+ 223  EMPC    	 1
+ 225  SOUS    	
+ 226  DEPL    	 1
+ 228  SAUT    	 156
+ 230  SORTIE  	
+ 231  RETOURNE  	
+ 232  ENTREE  	
+ 233  APPELFCT  	 5
+ 235  APPELFCT  	 68
+ 237  EMPC    	 10
+ 239  APPELFCT  	 147
+ 241  PILE    	 -1
+ 243  SORTIE  	
+ 244  RETOURNE  	

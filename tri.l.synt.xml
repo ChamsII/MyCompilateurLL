@@ -1,0 +1,1463 @@
+<programme>
+  <listeDeclVariable>
+    <declVariable>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $tab</id_variable>
+      <symbole> [</symbole>
+    </declVariable>
+    <declTableau>
+      <symbole> [</symbole>
+      <nombre> 10</nombre>
+      <symbole> ]</symbole>
+    </declTableau>
+    <symbole> ;</symbole>
+  </listeDeclVariable>
+  <listeDeclFonction>
+    <declFonction>
+      <id_fonction> initialiser</id_fonction>
+      <symbole> (</symbole>
+      <symbole> )</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 0</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 12</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 1</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 67</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 2</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 9</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 3</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 92</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 8</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 44</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 5</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 27</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 6</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 32</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 7</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 12</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 8</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 43</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 9</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 5</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+    <declFonction>
+      <id_fonction> afficher</id_fonction>
+      <symbole> (</symbole>
+      <symbole> )</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 0</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 1</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 2</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 3</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 4</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 5</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 6</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 7</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 8</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <nombre> 9</nombre>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 0</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+    <declFonction>
+      <id_fonction> echanger</id_fonction>
+      <symbole> (</symbole>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $i</id_variable>
+      <symbole> ,</symbole>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $j</id_variable>
+      <symbole> )</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $temp</id_variable>
+        <symbole> ;</symbole>
+      </declVariable>
+      <symbole> ;</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $temp</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <id_variable> $j</id_variable>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $j</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $tab</id_variable>
+                          <symbole> [</symbole>
+                          <expression>
+                            <conjonction>
+                              <negation>
+                                <comparaison>
+                                  <expArith>
+                                    <terme>
+                                      <facteur>
+                                        <id_variable> $i</id_variable>
+                                      </facteur>
+                                    </terme>
+                                  </expArith>
+                                </comparaison>
+                              </negation>
+                            </conjonction>
+                          </expression>
+                          <symbole> ]</symbole>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $tab</id_variable>
+            <symbole> [</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $i</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ]</symbole>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $temp</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+    <declFonction>
+      <id_fonction> trier</id_fonction>
+      <symbole> (</symbole>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $n</id_variable>
+      <symbole> )</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $echange</id_variable>
+        <symbole> ,</symbole>
+      </declVariable>
+      <symbole> ,</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $j</id_variable>
+        <symbole> ,</symbole>
+      </declVariable>
+      <symbole> ,</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $m</id_variable>
+        <symbole> ;</symbole>
+      </declVariable>
+      <symbole> ;</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $m</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $n</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $echange</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 1</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionTantque>
+            <mot_clef> tantque</mot_clef>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $echange</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                    <symbole> =</symbole>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 1</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <mot_clef> faire</mot_clef>
+            <instruction>
+              <instructionBloc>
+                <symbole> {</symbole>
+                <instruction>
+                  <instructionAffect>
+                    <id_variable> $echange</id_variable>
+                    <symbole> =</symbole>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <nombre> 0</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <symbole> ;</symbole>
+                  </instructionAffect>
+                </instruction>
+                <instruction>
+                  <instructionAffect>
+                    <id_variable> $j</id_variable>
+                    <symbole> =</symbole>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <nombre> 0</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <symbole> ;</symbole>
+                  </instructionAffect>
+                </instruction>
+                <instruction>
+                  <instructionTantque>
+                    <mot_clef> tantque</mot_clef>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <id_variable> $j</id_variable>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                            <symbole> &lt;</symbole>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <id_variable> $m</id_variable>
+                                </facteur>
+                              </terme>
+                              <symbole> -</symbole>
+                              <terme>
+                                <facteur>
+                                  <nombre> 1</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <mot_clef> faire</mot_clef>
+                    <instruction>
+                      <instructionBloc>
+                        <symbole> {</symbole>
+                        <instruction>
+                          <instructionSi>
+                            <mot_clef> si</mot_clef>
+                            <expression>
+                              <conjonction>
+                                <negation>
+                                  <comparaison>
+                                    <expArith>
+                                      <terme>
+                                        <facteur>
+                                          <id_variable> $tab</id_variable>
+                                          <symbole> [</symbole>
+                                          <expression>
+                                            <conjonction>
+                                              <negation>
+                                                <comparaison>
+                                                  <expArith>
+                                                    <terme>
+                                                      <facteur>
+                                                        <id_variable> $j</id_variable>
+                                                      </facteur>
+                                                    </terme>
+                                                    <symbole> +</symbole>
+                                                    <terme>
+                                                      <facteur>
+                                                        <nombre> 1</nombre>
+                                                      </facteur>
+                                                    </terme>
+                                                  </expArith>
+                                                </comparaison>
+                                              </negation>
+                                            </conjonction>
+                                          </expression>
+                                          <symbole> ]</symbole>
+                                        </facteur>
+                                      </terme>
+                                    </expArith>
+                                    <symbole> &lt;</symbole>
+                                    <expArith>
+                                      <terme>
+                                        <facteur>
+                                          <id_variable> $tab</id_variable>
+                                          <symbole> [</symbole>
+                                          <expression>
+                                            <conjonction>
+                                              <negation>
+                                                <comparaison>
+                                                  <expArith>
+                                                    <terme>
+                                                      <facteur>
+                                                        <id_variable> $j</id_variable>
+                                                      </facteur>
+                                                    </terme>
+                                                  </expArith>
+                                                </comparaison>
+                                              </negation>
+                                            </conjonction>
+                                          </expression>
+                                          <symbole> ]</symbole>
+                                        </facteur>
+                                      </terme>
+                                    </expArith>
+                                  </comparaison>
+                                </negation>
+                              </conjonction>
+                            </expression>
+                            <mot_clef> alors</mot_clef>
+                            <instruction>
+                              <instructionBloc>
+                                <symbole> {</symbole>
+                                <instruction>
+                                  <instructionAppel>
+                                    <AppelFct>
+                                      <id_fonction> echanger</id_fonction>
+                                      <symbole> (</symbole>
+                                      <argumentEffectifs>
+                                        <symbole> $j</symbole>
+                                        <expression>
+                                          <conjonction>
+                                            <negation>
+                                              <comparaison>
+                                                <expArith>
+                                                  <terme>
+                                                    <facteur>
+                                                      <id_variable> $j</id_variable>
+                                                    </facteur>
+                                                  </terme>
+                                                </expArith>
+                                              </comparaison>
+                                            </negation>
+                                          </conjonction>
+                                        </expression>
+                                        <symbole> ,</symbole>
+                                        <expression>
+                                          <conjonction>
+                                            <negation>
+                                              <comparaison>
+                                                <expArith>
+                                                  <terme>
+                                                    <facteur>
+                                                      <id_variable> $j</id_variable>
+                                                    </facteur>
+                                                  </terme>
+                                                  <symbole> +</symbole>
+                                                  <terme>
+                                                    <facteur>
+                                                      <nombre> 1</nombre>
+                                                    </facteur>
+                                                  </terme>
+                                                </expArith>
+                                              </comparaison>
+                                            </negation>
+                                          </conjonction>
+                                        </expression>
+                                      </argumentEffectifs>
+                                      <symbole> )</symbole>
+                                    </AppelFct>
+                                    <symbole> ;</symbole>
+                                  </instructionAppel>
+                                </instruction>
+                                <instruction>
+                                  <instructionAffect>
+                                    <id_variable> $echange</id_variable>
+                                    <symbole> =</symbole>
+                                    <expression>
+                                      <conjonction>
+                                        <negation>
+                                          <comparaison>
+                                            <expArith>
+                                              <terme>
+                                                <facteur>
+                                                  <nombre> 1</nombre>
+                                                </facteur>
+                                              </terme>
+                                            </expArith>
+                                          </comparaison>
+                                        </negation>
+                                      </conjonction>
+                                    </expression>
+                                    <symbole> ;</symbole>
+                                  </instructionAffect>
+                                </instruction>
+                              </instructionBloc>
+                            </instruction>
+                          </instructionSi>
+                        </instruction>
+                        <instruction>
+                          <instructionAffect>
+                            <id_variable> $j</id_variable>
+                            <symbole> =</symbole>
+                            <expression>
+                              <conjonction>
+                                <negation>
+                                  <comparaison>
+                                    <expArith>
+                                      <terme>
+                                        <facteur>
+                                          <id_variable> $j</id_variable>
+                                        </facteur>
+                                      </terme>
+                                      <symbole> +</symbole>
+                                      <terme>
+                                        <facteur>
+                                          <nombre> 1</nombre>
+                                        </facteur>
+                                      </terme>
+                                    </expArith>
+                                  </comparaison>
+                                </negation>
+                              </conjonction>
+                            </expression>
+                            <symbole> ;</symbole>
+                          </instructionAffect>
+                        </instruction>
+                      </instructionBloc>
+                    </instruction>
+                  </instructionTantque>
+                </instruction>
+                <instruction>
+                  <instructionAffect>
+                    <id_variable> $m</id_variable>
+                    <symbole> =</symbole>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <id_variable> $m</id_variable>
+                                </facteur>
+                              </terme>
+                              <symbole> -</symbole>
+                              <terme>
+                                <facteur>
+                                  <nombre> 1</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <symbole> ;</symbole>
+                  </instructionAffect>
+                </instruction>
+              </instructionBloc>
+            </instruction>
+          </instructionTantque>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+    <declFonction>
+      <id_fonction> main</id_fonction>
+      <symbole> (</symbole>
+      <symbole> )</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAppel>
+            <AppelFct>
+              <id_fonction> initialiser</id_fonction>
+              <symbole> (</symbole>
+              <argumentEffectifs>
+              </argumentEffectifs>
+              <symbole> )</symbole>
+            </AppelFct>
+            <symbole> ;</symbole>
+          </instructionAppel>
+        </instruction>
+        <instruction>
+          <instructionAppel>
+            <AppelFct>
+              <id_fonction> afficher</id_fonction>
+              <symbole> (</symbole>
+              <argumentEffectifs>
+              </argumentEffectifs>
+              <symbole> )</symbole>
+            </AppelFct>
+            <symbole> ;</symbole>
+          </instructionAppel>
+        </instruction>
+        <instruction>
+          <instructionAppel>
+            <AppelFct>
+              <id_fonction> trier</id_fonction>
+              <symbole> (</symbole>
+              <argumentEffectifs>
+                <symbole> 10</symbole>
+                <expression>
+                  <conjonction>
+                    <negation>
+                      <comparaison>
+                        <expArith>
+                          <terme>
+                            <facteur>
+                              <nombre> 10</nombre>
+                            </facteur>
+                          </terme>
+                        </expArith>
+                      </comparaison>
+                    </negation>
+                  </conjonction>
+                </expression>
+              </argumentEffectifs>
+              <symbole> )</symbole>
+            </AppelFct>
+            <symbole> ;</symbole>
+          </instructionAppel>
+        </instruction>
+        <instruction>
+          <instructionAppel>
+            <AppelFct>
+              <id_fonction> afficher</id_fonction>
+              <symbole> (</symbole>
+              <argumentEffectifs>
+              </argumentEffectifs>
+              <symbole> )</symbole>
+            </AppelFct>
+            <symbole> ;</symbole>
+          </instructionAppel>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+  </listeDeclFonction>
+</programme>

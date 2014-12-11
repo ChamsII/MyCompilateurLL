@@ -1,0 +1,91 @@
+<prog>
+  <l_Decl>
+    <declFonc>
+      calcul
+      <decVar> $a</decVar>
+      <decVar> $b</decVar>
+      <decVar> $c</decVar>
+      <decVar> $k</decVar>
+      <instr_Bloc>
+        <inst_affect>
+          <var_indicee> $k</var_indicee>
+          <opExpre>
+            <var_simple> $a</var_simple>
+            plus
+            <var_simple> $b</var_simple>
+          </opExpre>
+        </inst_affect>
+        <instr_retour>
+          <opExpre>
+            <var_simple> $k</var_simple>
+          </opExpre>
+        </instr_retour>
+      </instr_Bloc>
+    </declFonc>
+    <declFonc>
+      main
+      <decVar> $d</decVar>
+      <decVar> $z</decVar>
+      <decVar> $f</decVar>
+      <instr_Bloc>
+        <inst_affect>
+          <var_indicee> $d</var_indicee>
+          <opExpre>
+            <intExpr> 5</intExpr>
+          </opExpre>
+        </inst_affect>
+        <inst_affect>
+          <var_indicee> $z</var_indicee>
+          <opExpre>
+            <intExpr> 0</intExpr>
+          </opExpre>
+        </inst_affect>
+        <instr_tantque>
+          <opExpre>
+            <var_simple> $z</var_simple>
+            inf
+            <intExpr> 9</intExpr>
+          </opExpre>
+          <instr_Bloc>
+            <instr_si>
+              <opExpre>
+                <var_simple> $z</var_simple>
+                egal
+                <intExpr> 3</intExpr>
+              </opExpre>
+              <instr_Bloc>
+                <inst_affect>
+                  <var_indicee> $f</var_indicee>
+                  <opExpre>
+                    calcul
+                    <opExpre>
+                      <var_simple> $d</var_simple>
+                    </opExpre>
+                    <opExpre>
+                      <intExpr> 2</intExpr>
+                    </opExpre>
+                  </opExpre>
+                </inst_affect>
+              </instr_Bloc>
+            </instr_si>
+            <inst_affect>
+              <var_indicee> $z</var_indicee>
+              <opExpre>
+                <var_simple> $z</var_simple>
+                plus
+                <intExpr> 1</intExpr>
+              </opExpre>
+            </inst_affect>
+          </instr_Bloc>
+        </instr_tantque>
+        <instr_ecriture>
+          <opExpre>
+            <var_simple> $z</var_simple>
+            plus
+            <intExpr> 8</intExpr>
+          </opExpre>
+        </instr_ecriture>
+      </instr_Bloc>
+    </declFonc>
+  </l_Decl>
+</prog>

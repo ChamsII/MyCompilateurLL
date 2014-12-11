@@ -1,0 +1,331 @@
+<programme>
+  <listeDeclFonction>
+    <declFonction>
+      <id_fonction> calcul</id_fonction>
+      <symbole> (</symbole>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $a</id_variable>
+      <symbole> ,</symbole>
+      <mot_clef> entier</mot_clef>
+      <id_variable> $b</id_variable>
+      <symbole> )</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $c</id_variable>
+        <symbole> ,</symbole>
+      </declVariable>
+      <symbole> ,</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $k</id_variable>
+        <symbole> ;</symbole>
+      </declVariable>
+      <symbole> ;</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $k</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $a</id_variable>
+                        </facteur>
+                      </terme>
+                      <symbole> +</symbole>
+                      <terme>
+                        <facteur>
+                          <id_variable> $b</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionRetour>
+            <mot_clef> retour</mot_clef>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $k</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionRetour>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+    <declFonction>
+      <id_fonction> main</id_fonction>
+      <symbole> (</symbole>
+      <symbole> )</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $d</id_variable>
+        <symbole> ,</symbole>
+      </declVariable>
+      <symbole> ,</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $z</id_variable>
+        <symbole> ,</symbole>
+      </declVariable>
+      <symbole> ,</symbole>
+      <declVariable>
+        <mot_clef> entier</mot_clef>
+        <id_variable> $f</id_variable>
+        <symbole> ;</symbole>
+      </declVariable>
+      <symbole> ;</symbole>
+      <instructionBloc>
+        <symbole> {</symbole>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $d</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 5</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionAffect>
+            <id_variable> $z</id_variable>
+            <symbole> =</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 0</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> ;</symbole>
+          </instructionAffect>
+        </instruction>
+        <instruction>
+          <instructionTantque>
+            <mot_clef> tantque</mot_clef>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $z</id_variable>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                    <symbole> &lt;</symbole>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <nombre> 9</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <mot_clef> faire</mot_clef>
+            <instruction>
+              <instructionBloc>
+                <symbole> {</symbole>
+                <instruction>
+                  <instructionSi>
+                    <mot_clef> si</mot_clef>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <id_variable> $z</id_variable>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                            <symbole> ==</symbole>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <nombre> 3</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <mot_clef> alors</mot_clef>
+                    <instruction>
+                      <instructionBloc>
+                        <symbole> {</symbole>
+                        <instruction>
+                          <instructionAffect>
+                            <id_variable> $f</id_variable>
+                            <symbole> =</symbole>
+                            <expression>
+                              <conjonction>
+                                <negation>
+                                  <comparaison>
+                                    <expArith>
+                                      <terme>
+                                        <facteur>
+                                          <id_fonction> calcul</id_fonction>
+                                          <symbole> (</symbole>
+                                          <argumentEffectifs>
+                                            <symbole> $d</symbole>
+                                            <expression>
+                                              <conjonction>
+                                                <negation>
+                                                  <comparaison>
+                                                    <expArith>
+                                                      <terme>
+                                                        <facteur>
+                                                          <id_variable> $d</id_variable>
+                                                        </facteur>
+                                                      </terme>
+                                                    </expArith>
+                                                  </comparaison>
+                                                </negation>
+                                              </conjonction>
+                                            </expression>
+                                            <symbole> ,</symbole>
+                                            <expression>
+                                              <conjonction>
+                                                <negation>
+                                                  <comparaison>
+                                                    <expArith>
+                                                      <terme>
+                                                        <facteur>
+                                                          <nombre> 2</nombre>
+                                                        </facteur>
+                                                      </terme>
+                                                    </expArith>
+                                                  </comparaison>
+                                                </negation>
+                                              </conjonction>
+                                            </expression>
+                                          </argumentEffectifs>
+                                          <symbole> )</symbole>
+                                        </facteur>
+                                      </terme>
+                                    </expArith>
+                                  </comparaison>
+                                </negation>
+                              </conjonction>
+                            </expression>
+                            <symbole> ;</symbole>
+                          </instructionAffect>
+                        </instruction>
+                      </instructionBloc>
+                    </instruction>
+                  </instructionSi>
+                </instruction>
+                <instruction>
+                  <instructionAffect>
+                    <id_variable> $z</id_variable>
+                    <symbole> =</symbole>
+                    <expression>
+                      <conjonction>
+                        <negation>
+                          <comparaison>
+                            <expArith>
+                              <terme>
+                                <facteur>
+                                  <id_variable> $z</id_variable>
+                                </facteur>
+                              </terme>
+                              <symbole> +</symbole>
+                              <terme>
+                                <facteur>
+                                  <nombre> 1</nombre>
+                                </facteur>
+                              </terme>
+                            </expArith>
+                          </comparaison>
+                        </negation>
+                      </conjonction>
+                    </expression>
+                    <symbole> ;</symbole>
+                  </instructionAffect>
+                </instruction>
+              </instructionBloc>
+            </instruction>
+          </instructionTantque>
+        </instruction>
+        <instruction>
+          <instructionEcriture>
+            <mot_clef> ecrire</mot_clef>
+            <symbole> (</symbole>
+            <expression>
+              <conjonction>
+                <negation>
+                  <comparaison>
+                    <expArith>
+                      <terme>
+                        <facteur>
+                          <id_variable> $z</id_variable>
+                        </facteur>
+                      </terme>
+                      <symbole> +</symbole>
+                      <terme>
+                        <facteur>
+                          <nombre> 8</nombre>
+                        </facteur>
+                      </terme>
+                    </expArith>
+                  </comparaison>
+                </negation>
+              </conjonction>
+            </expression>
+            <symbole> )</symbole>
+            <symbole> ;</symbole>
+          </instructionEcriture>
+        </instruction>
+      </instructionBloc>
+    </declFonction>
+  </listeDeclFonction>
+</programme>

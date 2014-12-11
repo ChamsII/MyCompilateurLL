@@ -1,0 +1,22 @@
+calcul(entier $a, entier $b) #declaration
+  entier $c, entier $k;
+{
+   $k = $a + $b;
+   retour $k;
+}
+
+main()
+ entier $d, entier $z, entier $f;
+{
+  $d = 5;
+  $z = 0;
+  tantque $z < 9 faire
+  { 
+     si $z == 3 alors
+     {
+         $f = calcul($d,2);
+     }
+     $z = $z + 1;
+  }
+  ecrire($z + 8);
+}.
